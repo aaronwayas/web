@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página de Scripts Roblox</title>
+</head>
+<body>
+    <h1>Scripts para Roblox</h1>
+
+    <label for="filtro">Filtrar por categoría:</label>
+    <select id="filtro" onchange="filtrarScripts()">
+        <option value="todos">Todos</option>
+        <option value="combate">Combate</option>
+        <option value="interactivo">Interactivo</option>
+        <option value="movimiento">Movimiento</option>
+        <!-- Agrega más opciones según tus categorías -->
+    </select>
+
+    <div id="scripts-container">
+        <!-- Aquí se mostrarían los scripts, inicialmente todos -->
+        <div class="script combate">Script de Combate 1</div>
+        <div class="script interactivo">Script Interactivo 1</div>
+        <div class="script movimiento">Script de Movimiento 1</div>
+        <!-- Agrega más scripts con clases correspondientes -->
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

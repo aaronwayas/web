@@ -1,0 +1,31 @@
+/* Estilos básicos, puedes personalizar según tus necesidades */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#filtro {
+    margin-bottom: 10px;
+}
+
+.script {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.combate {
+    background-color: #ff9999;
+}
+
+.interactivo {
+    background-color: #99ff99;
+}
+
+.movimiento {
+    background-color: #99ccff;
+}
